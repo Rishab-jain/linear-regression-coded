@@ -1,9 +1,3 @@
-
-# coding: utf-8
-
-# In[2]:
-
-
 import numpy as np
 import matplotlib.pyplot as plt
  
@@ -57,57 +51,38 @@ def main():
 if __name__ == "__main__":
     main()
 
-
-# In[4]:
-
-
 my_list=[1,2,3]
 
-
-# In[5]:
 
 
 import numpy as np
 
 
-# In[7]:
-
 
 arr=np.array(my_list)
 
-
-# In[8]:
 
 
 arr
 
 
-# In[9]:
-
-
 my_mat=[[1,2,3],[4,5,6],[7,8,9]]
 
 
-# In[10]:
 
 
 np.array(my_mat)
 
 
-# In[13]:
 
 
 np.arange(0,10,2)
 
 
-# In[17]:
-
 
 np.zeros((5,5))
 type(np.ones((3,4)))
 
-
-# In[38]:
 
 
 np.linspace(0,5,10)
@@ -121,13 +96,10 @@ np.array(arr)
 arr.max()
 
 
-# In[39]:
-
 
 np.random.randint(1,100,10)
 
 
-# In[40]:
 
 
 ranarr.max()
